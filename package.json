@@ -1,0 +1,14 @@
+{
+  "name": "@acme/payment-service",
+  "version": "1.0.0",
+  "description": "Processamento de pagamentos e faturamento",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^12.0.0",
+    "@acme/auth-service": "1.0.0"
+  }
+}
